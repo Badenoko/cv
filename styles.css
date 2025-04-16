@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+.card__image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card__image:hover {
+  border: 3px solid #24ed96;
+}
+
+.card__name {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.card__title {
+    color: #555;
+    margin-bottom: 20px;
+    font-style: oblique;
+    font-family: initial;
+    font-size: 17px;
+}
+
+.card__description {
+    font-size: 16px;
+    font-family: unset;
+    margin-bottom: 15px;
+}
+
+.card__interest {
+    font-style: oblique;
+}
+
+.card__enumeration {
+    color: #09822f;
+    font-style: oblique;
+    font-family: initial;
+    font-size: 18px;
+}
+
+.card__contacts a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 30px 0;
+}
+
+.card__contacts a:hover {
+    text-decoration: underline;
+}
+
+.card__social a {
+    margin: 0 15px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.card__social a:hover {
+    text-decoration: underline;
+}
